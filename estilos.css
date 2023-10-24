@@ -26,15 +26,24 @@ body {
 .contenido {
 
 
+    width: 40%;
+
+    margin-top: 2%;
+
+    float: left;
+
+}
+
+.contenidotecno {
+
+
     width: 100%;
 
-    margin-top: 10%;
-
-    top: 316px;
-
+    margin-top: 2%;
 
 
 }
+
 
 .imagentecno {
 
@@ -45,18 +54,24 @@ body {
     float: right;
 
     height: 200px;
+    
+    width: 20%;
 
-    width: 260px;
-
-    margin-left: 5px;
+    margin-left: 50px;
 
     margin-right: 5px;
+
+    margin-top: 30px;
 
     background-image: url("medellin.jpeg");
 
 }
 
 
+.contenidotecno center audio{
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
 
 .textotecno {
 
@@ -123,4 +138,11 @@ necesidad de cada una de las página.
     width: 100%;
     height: 500px;
     margin-top: 1%;
+}
+
+.contenedor12M{
+    width: 60%;
+    height: 500px;
+    margin-top: 1%;
+    float: right;
 }
