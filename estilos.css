@@ -1,113 +1,126 @@
-*{
+* {
 
     padding: 0px;
-    
+
     margin: 0px;
-    
-    }
-    
-    
-    
-    
-    body{
-    
-    background-image: url("fondo.jpg");
-    
+
+}
+
+
+
+body {
+    background-image: url("zyro-image.png");
     background-repeat: no-repeat;
-    
-    }
-        
-        .electro{
-            background-image: url("electronica.gif");
-            width: 440px;
-            height: 440px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
 
-        }
-        .contenido{
 
-            height: 280px;
-            
-            width: 100%;
-            
-            position: absolute;
-            
-            top: 316px;
-            
-             
-            
-            }
+.electro {
+    background-image: url("electronica.gif");
+    width: 440px;
+    height: 440px;
 
-            .imagentecno{
-        
-         
-        
-                background-repeat: no-repeat;
-                
-                float:right;
-                
-                height: 200px;
-                
-                width: 260px;
-                
-                margin-left: 5px;
-                
-                margin-right:5px;
-                
-                background-image: url("medellin.jpeg");
-                
-                }
-                
-                
-                
-                .textotecno{
-                
-                text-align: justify;
-                
-                color: rgb(242, 81, 7);
-                
-                font-size: 30px;
-                
-                
-                
-                }
-        
+}
+
+.contenido {
+
+
+    width: 100%;
+
+    margin-top: 10%;
+
+    top: 316px;
+
+
+
+}
+
+.imagentecno {
+
+
+
+    background-repeat: no-repeat;
+
+    float: right;
+
+    height: 200px;
+
+    width: 260px;
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+    background-image: url("medellin.jpeg");
+
+}
+
+
+
+.textotecno {
+
+    text-align: justify;
+
+    color: rgb(242, 81, 7);
+
+    font-size: 30px;
+
+
+
+}
+
 
 /*
 La etiqueta imagentecno y textotecno se puede modificar de acuerdo a la 
 necesidad de cada una de las página.
 
 */
-        
- .imagen{
-        
-         
-        
-        background-repeat: no-repeat;
-        
-        float:right;
-        
-        height: 200px;
-        
-        width: 260px;
-        
-        margin-left: 5px;
-        
-        margin-right:5px;
-        
-        background-image: url("medellin.jpeg");
-        
-        }
-        
-        
-        
-        .texto{
-        
-        text-align: justify;
-        
-        color: rgb(242, 81, 7);
-        
-        font-size: 30px;
-        
-        
-        
-        }
+
+.imagen {
+
+
+
+    background-repeat: no-repeat;
+
+    float: right;
+
+    height: 200px;
+
+    width: 260px;
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+    background-image: url("medellin.jpeg");
+
+}
+
+
+
+.texto {
+
+
+    text-align: justify;
+
+    color: rgb(255, 0, 0);
+
+    font-size: 30px;
+
+    margin-bottom: 50px;
+
+}
+
+.contenedor1{
+    width: 100%;
+    height: 50px;
+    margin-top: 1%;
+    
+}
+
+.contenedor12{
+    width: 100%;
+    height: 500px;
+    margin-top: 1%;
+}
